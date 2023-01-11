@@ -12,7 +12,8 @@
         display: flex;
         flex: 1;
         overflow: hidden;
-
+        justify-content: center;
+        
         @include mobile{
             flex: 0.3;
             justify-content: center;
@@ -21,7 +22,6 @@
 
         img{
             height: 80%;
-            margin: 30px;
 
             @include mobile{
                 height: 60%;
@@ -54,27 +54,27 @@
             justify-content: space-around;
 
             @include mobile{
-                justify-content: start;
+                
             }
             
             input{
-                width: 300px;
+                width: 200px;
                 height: 30px;
                 font-size: 14px;
 
                 @include mobile{
+                    border: 2px solid grayscale($color: #a39c9c);
                     width: 200px;
-                    height: 30px;
-                    margin: 10px;
                 }
             }
 
             textarea{
-                width: 300px;
+                width: 200px;
                 height: 200px;
                 font-size: 14px;
 
                 @include mobile{
+                    border: 2px solid grayscale($color: #a39c9c);
                     width: 200px;
                     height: 100px;
                     margin: 10px;

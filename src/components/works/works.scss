@@ -38,16 +38,22 @@
         transition: all 1s ease-out;
 
         @include mobile {
+            
             height: 100vh;
             flex-direction: column;
             justify-content: center;
         }
 
         .container{
+            
             width: 100vw;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @include mobile {
+                margin: 5px 0;
+            }
 
             .item{
                 width: 700px;
@@ -60,7 +66,7 @@
 
                 @include mobile {
                     width: 90%;
-                    height: 200px;
+                    height: 170px;
                     margin: 5px 0;
                 }
             }
