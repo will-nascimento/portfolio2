@@ -1,4 +1,4 @@
-import TopBar from "./components/topbar/topBar";
+import TopBar from './components/topbar/topbar';
 import Intro from './components/intro/intro';
 import Works from './components/works/works'
 import Testimonials from './components/testimonials/testimonials'
